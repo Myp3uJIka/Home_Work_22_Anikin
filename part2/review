@@ -1,0 +1,23 @@
+Я изучил работу (https://github.com/Myp3uJIka/Home_Work_12_Anikin)
+Я обнаружил следующие запахи:
+
+- main.py, строка 42
+- длинный метод
+– coincidence = [x for x in dict_of_candidate if combination in x["name"]]
+
+- main.py, строка 46
+- длинный метод
+– coincidence = [x for x in dict_of_candidate if combination.lower() in x["name"].lower()]
+
+- main.py, строка 61
+- длинный метод
+– coincidence = [x for x in dict_of_candidate if combination.lower() in x["skills"].lower()]
+
+- main.py, строка 65
+- длинный метод
+– coincidence_with_limit = coincidence[:settings["limit"]]
+
+- main.py
+- избыточные комментарии
+- следует оставить комментарии которые описывают "что" делает конкретный участок кода и убрать те комментарии, которые
+описывают "как"
